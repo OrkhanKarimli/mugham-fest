@@ -1,0 +1,26 @@
+.article {
+    margin: 60px 0;
+    gap: 50px;
+    align-items: center;
+  }
+  .text{
+    margin-bottom: 6%;
+  }
+  .text>h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: var(--historyFont);
+    line-height: 76.8px;
+    color: var(--primaryTextColor);
+    margin-bottom: 2%;
+    text-align: center;
+  }
+ .text>p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35.2px;
+    color: var(--primaryTextColor);
+    font-family: var(--primaryFont);
+  }

@@ -1,0 +1,15 @@
+@import url('./assets/fonts/fonts.css');
+@import url('./assets/css/reset.css');
+@import url('./assets/css/variables.css');
+
+
+html * {
+  font-family: var(--primaryFont);
+  color: var(--primaryTextColor);
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--backgroundColor);
+  background-image: url('./assets/images/background.svg');
+}

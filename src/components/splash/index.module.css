@@ -1,0 +1,94 @@
+.overlay {
+  height: 100svh;
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+}
+
+.splash {
+  background: rgba(181, 181, 181, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  backdrop-filter: blur(59px);
+  height: 530px;
+  width: 830px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+}
+
+.unsplash {
+  background: rgba(181, 181, 181, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+  backdrop-filter: blur(0px);
+  height: 530px;
+  width: 830px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+
+}
+
+.content {
+  opacity: 1;
+  transition: 1s;
+}
+
+.uncontent {
+  opacity: 0;
+  transition: 1s;
+}
+
+.content h1,
+.uncontent h1 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 58px;
+  color: var(--primaryTextColor);
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.content h2,
+.uncontent h2 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  text-align: center;
+  color: #A6A6A6;
+  margin-bottom: 7px;
+
+}
+
+.content h3,
+.uncontent h3 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  color: var(--primaryTextColor);
+  margin-bottom: 60px;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}

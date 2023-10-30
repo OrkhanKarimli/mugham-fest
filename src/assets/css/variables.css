@@ -1,0 +1,12 @@
+:root {
+  --backgroundColor: #FFFFFF;
+  --primaryTextColor: #1B1B25;
+  --secondaryTextColor: #919191;
+  --historyTextColor: #000000;
+  --slidersectionTextColor: #A3A3A3;
+  --primaryFont: 'Lexend';
+  --secondaryFont: 'Oswald';
+  --historyFont: 'Angelica';
+  --historySecondaryFont: 'Inter';
+  --transition: 200ms;
+}

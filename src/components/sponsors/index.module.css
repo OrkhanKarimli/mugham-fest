@@ -1,0 +1,31 @@
+.title h2 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 71px;
+  color: var(--primaryTextColor);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title .line {
+  width: 60%;
+  height: 1px;
+  background-color: #A7A7A7;
+  margin: auto;
+  margin-bottom: 58px;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 56px;
+}
+
+.sponsors:last-child {
+  margin-bottom: 140px;
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Lexend;
+  src: url('./Lexend-VariableFont.ttf');
+}
+
+@font-face {
+  font-family: Mussica;
+  src: url('./Mussica.otf');
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url('./Oswald-VariableFont.ttf');
+}
+
+@font-face {
+  font-family: Angelica;
+  src: url('./AngleciaProDisplay-Regular.otf');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./Inter-V.ttf');
+}

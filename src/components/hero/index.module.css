@@ -1,0 +1,122 @@
+.jumbo-text {
+  padding-top: 100px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h3 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 200;
+  font-size: 71.4153px;
+  line-height: 100px;
+  color: var(--secondaryTextColor);
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 154.445px;
+  line-height: 160px;
+  text-transform: uppercase;
+  color: var(--secondaryTextColor);
+}
+
+.hero h2 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 200;
+  font-size: 96.0427px;
+  line-height: 125px;
+  color: var(--secondaryTextColor);
+  margin-bottom: 50px;
+}
+
+.hero .button {
+  display: flex;
+  gap: 23px;
+}
+
+.hero-image {
+  margin: auto;
+  max-height: 660px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+
+.hero-image img {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.socials {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  left: 92.5%;
+  transform: translate(-50%, -50%);
+}
+
+.socials a {
+  transition: var(--transition);
+
+}
+
+.socials a:hover {
+  transform: scale(1.25);
+  transition: var(--transition);
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button a:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 13.5345px 40.8966px;
+  gap: 8.35px;
+  width: 218px;
+  height: 47.07px;
+  border: 1px solid #1B1B25;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.7902px;
+  line-height: 20px;
+  color: #1B1B25;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.button a:last-child {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 13.5345px 40.8966px;
+  gap: 8.35px;
+  width: 218px;
+  height: 47.07px;
+  background: #1B1B25;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.7902px;
+  line-height: 20px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+
+}

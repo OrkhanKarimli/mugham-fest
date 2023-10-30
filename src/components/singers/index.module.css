@@ -1,0 +1,203 @@
+.title {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background: #A7A7A7;
+  margin-top: 11px;
+}
+
+.title>div {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.title svg {
+  transform: scale(-1, 1);
+}
+
+.title h2 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 78px;
+  color: var(--primaryTextColor);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.text-para {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+  margin-bottom: 8px;
+}
+
+.text-para p {
+  font-family: var(--primaryFont);
+  font-style: normal;
+  color: var(--primaryTextColor);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  width: 820px;
+  color: #6F6F6F;
+  text-align: right;
+}
+
+.text-para svg {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.singers {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 850px;
+}
+
+.singers img {
+  width: 231px;
+  border-radius: 50%;
+}
+
+.singers .singer1 {
+  position: absolute;
+  left: 24%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singers .singer1 img {
+  width: 231px;
+}
+
+.singers .singer1>div {
+  position: absolute;
+  top: -108px;
+  left: 28px;
+}
+
+.singers .singer2 {
+  position: absolute;
+  top: 19%;
+  left: 42%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.13);
+}
+
+.singers .singer2 img {
+  width: 231px;
+}
+
+.singers .singer2>div {
+  position: absolute;
+  top: -108px;
+  left: 28px;
+}
+
+.singers .singer3 {
+  position: absolute;
+  top: 13%;
+  left: 68%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.25);
+}
+
+.singers .singer3 img {
+  width: 231px;
+}
+
+.singers .singer3>div {
+  position: absolute;
+  top: -108px;
+  left: 28px;
+}
+
+.singers .singer4 {
+  position: absolute;
+  top: 27%;
+  left: 8%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(.8);
+}
+
+.singers .singer4 img {
+  width: 231px;
+}
+
+.singers .singer4>div {
+  position: absolute;
+  top: -108px;
+  left: 28px;
+}
+
+.singers .singer5 {
+  position: absolute;
+  top: 44%;
+  left: 20%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(.7);
+}
+
+.singers .singer5 img {
+  width: 231px;
+}
+
+.singers .singer5>div {
+  position: absolute;
+  top: -108px;
+  left: 28px;
+}
+
+.singers .singer6 {
+  position: absolute;
+  top: 48%;
+  left: 58%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(.8);
+}
+
+.singers .singer6 img {
+  width: 231px;
+}
+
+.singers .singer6>div {
+  position: absolute;
+  top: -108px;
+  left: 28px;
+}

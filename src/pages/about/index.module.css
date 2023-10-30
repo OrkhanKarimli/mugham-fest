@@ -1,0 +1,54 @@
+.img-cont {
+  max-height: 225px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 87px;
+}
+
+.img-cont img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.line-break {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17.5px;
+  margin: 30px 0;
+}
+
+.line-break svg {
+  width: 54px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: #A7A7A7;
+}
+
+.text {
+  margin-bottom: 105px;
+}
+
+.text h2 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--primaryTextColor);
+}
+
+.text p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--primaryTextColor);
+  margin-bottom: 35px;
+}

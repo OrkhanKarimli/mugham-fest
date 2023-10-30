@@ -1,0 +1,87 @@
+.form {
+  display: flex;
+}
+
+.form h2 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 111%;
+  color: var(--primaryTextColor);
+  margin-bottom: 35px;
+}
+
+.form p {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6562px;
+  line-height: 140%;
+  color: var(--primaryTextColor);
+  width: 400px;
+}
+
+.form-inputs {
+  width: 520px;
+  gap: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form .form-name {
+  display: flex;
+  gap: 13px;
+}
+
+.form input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 10.5px 13px;
+  background: #383842;
+  border: 0.803637px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.form input::placeholder {
+  color: #fff;
+}
+
+.form textarea {
+  resize: none;
+  width: 100%;
+  height: 90px;
+  padding: 10.5px 13px;
+  background: transparent;
+  background: #383842;
+  border: 0.803637px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+
+}
+
+.form textarea::placeholder {
+  color: #fff;
+}
+
+.form .button {
+  display: flex;
+
+}
+
+.form .button button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11.2509px 32.1455px;
+  background: #FFFFFF;
+  border: none;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--primaryTextColor);
+}

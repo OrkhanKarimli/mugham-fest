@@ -1,0 +1,103 @@
+.estrellas {
+  position: relative;
+  width: 251px;
+  height: 251px;
+  margin: 0 auto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.0304px;
+  line-height: 31px;
+  position: relative;
+}
+
+.estrellas span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 70px;
+  height: 300px;
+  margin-left: -35px;
+  /* height*2 - font-size */
+  text-align: center;
+  line-height: 350px;
+  transform-origin: bottom center;
+  /* Only for seeing trick */
+  user-select: none;
+}
+
+.estrellas span:nth-of-type(1) {
+  transform: rotate(-24deg);
+}
+
+.estrellas span:nth-of-type(2) {
+  transform: rotate(-16deg);
+}
+
+.estrellas span:nth-of-type(3) {
+  transform: rotate(-8deg);
+}
+
+.estrellas span:nth-of-type(4) {
+  transform: rotate(0deg);
+}
+
+.estrellas span:nth-of-type(5) {
+  transform: rotate(8deg);
+}
+
+.estrellas span:nth-of-type(6) {
+  transform: rotate(16deg);
+}
+
+.estrellas span:nth-of-type(7) {
+  transform: rotate(24deg);
+}
+
+.estrellas span:nth-of-type(8) {
+  transform: rotate(32deg);
+}
+
+.estrellas span:nth-of-type(9) {
+  transform: rotate(40deg);
+}
+
+.estrellas span:nth-of-type(10) {
+  transform: rotate(48deg);
+}
+
+.estrellas span:nth-of-type(11) {
+  transform: rotate(56deg);
+}
+
+.estrellas span:nth-of-type(12) {
+  transform: rotate(64deg);
+}
+
+.estrellas span:nth-of-type(13) {
+  transform: rotate(72deg);
+}
+
+.estrellas span:nth-of-type(14) {
+  transform: rotate(80deg);
+}
+
+.estrellas span:nth-of-type(15) {
+  transform: rotate(88deg);
+}
+
+.estrellas span:nth-of-type(16) {
+  transform: rotate(96deg);
+}
+
+.estrellas span:nth-of-type(17) {
+  transform: rotate(104deg);
+}
+
+.estrellas span:nth-of-type(18) {
+  transform: rotate(112deg);
+}
+
+.estrellas span:nth-of-type(19) {
+  transform: rotate(120deg);
+}

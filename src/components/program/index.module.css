@@ -1,0 +1,54 @@
+.title-info {
+  margin-bottom: 92px;
+}
+
+.title-info h2 {
+
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 78px;
+  color: var(--primaryTextColor);
+  margin-bottom: 26px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.title-info p {
+  font-family: var(--primaryFont);
+  font-style: normal;
+  color: var(--primaryTextColor);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  width: 570px;
+  color: #6F6F6F;
+}
+
+.program-cards {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 130px;
+}
+
+.title {
+  display: flex;
+  gap: 50px;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background: #A7A7A7;
+  margin-top: 11px;
+}
+
+.title>div {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 14px;
+}

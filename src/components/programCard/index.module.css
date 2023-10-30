@@ -1,0 +1,83 @@
+.card {
+  height: 300px;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .card-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.26) 24.73%, rgba(0, 0, 0, 0) 44.38%);
+  padding: 15px 33px;
+  width: 350px;
+}
+
+.card-text h3 {
+
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50.4179px;
+  line-height: 75px;
+  color: #FFFFFF;
+  text-shadow: 0px 1.93867px 1.93867px rgba(0, 0, 0, 0.25);
+}
+
+.card-text h4 {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28.2421px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-shadow: 0px 3.13801px 3.13801px rgba(0, 0, 0, 0.25);
+  margin-bottom: 14px;
+}
+
+.card-text p {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 1px;
+  margin-bottom: 33px;
+}
+
+.card-text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8.39065px 25.3538px;
+  gap: 5.17px;
+  text-decoration: none;
+  width: 148.23px;
+  border: none;
+  background: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.586px;
+  line-height: 16px;
+
+  color: var(--primaryTextColor);
+}
+
+.card-text a svg {
+  width: 12px;
+}

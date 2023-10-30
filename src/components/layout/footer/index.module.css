@@ -1,0 +1,136 @@
+.footer {
+  padding-top: 71px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #252530;
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.left-footer img {
+  width: 194px;
+}
+
+.left-footer p {
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17.6562px;
+  line-height: 140%;
+  color: #FFFFFF;
+  width: 300px;
+}
+
+.right-footer {
+  display: flex;
+}
+
+.right-footer ul li:first-child {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFF;
+  margin-bottom: 18px;
+  opacity: 1;
+}
+
+.right-footer ul li {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  transition: var(--transition);
+
+}
+
+.right-footer ul li:hover {
+  font-weight: 400;
+  opacity: 1;
+  transition: var(--transition);
+  display: inline-block;
+
+}
+
+.right-footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+
+}
+
+.right-footer ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.right-footer ul {
+  width: 300px;
+}
+
+.right-footer ul:last-child {
+  width: 450px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 26px;
+}
+
+.socials>div {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.socials h5 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.rights p {
+  text-align: center;
+  padding: 22px 0;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF70;
+  background: #252530;
+  border-top: 1.33333px solid #FFFFFF50;
+}
+
+.socials a {
+  transition: var(--transition);
+}
+
+.socials a:hover {
+  transform: scale(1.25);
+  transition: var(--transition);
+
+}
+
+.lower-footer {
+  background: #252530;
+}
+
+.socials svg {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

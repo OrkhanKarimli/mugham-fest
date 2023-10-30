@@ -1,0 +1,30 @@
+.text-count>ul {
+  margin-top: 9%;
+  list-style: none;
+  padding: 0% 15% 0% 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-count>ul>li>h4 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 77.52px;
+  font-family: var(--secondaryFont);
+  color: var(--primaryTextColor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 73.4681px;
+  line-height: 109px;
+}
+
+.text-count>ul>li>p {
+  font-size: 48px;
+  line-height: 77.52px;
+  font-family: var(--secondaryFont);
+  color: var(--primaryTextColor);
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48.4676px;
+  line-height: 72px;
+}

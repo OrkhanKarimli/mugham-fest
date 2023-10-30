@@ -1,0 +1,30 @@
+.text-about {
+    width: 80%;
+    margin: auto;
+}
+
+.text-about h3 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    color: var(--primaryTextColor);
+    font-family: var(--secondaryFont);
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.text-about p {
+    font-family: var(--secondaryFont);
+    color: var(--primaryTextColor);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.text-about p span {
+    font-family: var(--secondaryFont);
+    color: var(--primaryTextColor);
+    font-weight: 600;
+}
